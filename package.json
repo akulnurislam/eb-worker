@@ -1,0 +1,35 @@
+{
+  "name": "eb-worker",
+  "version": "1.0.0",
+  "description": "project skeleton for Elastic Beanstalk Worker",
+  "main": "bin/eb-worker-cli.js",
+  "bin": {
+    "eb-worker": "./bin/eb-worker-cli.js"
+  },
+  "engines": {
+    "node": ">= 8.15.0"
+  },
+  "author": "akul <nurislamimanudin@gmail.com> (https://github.com/akulnurislam)",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akulnurislam/eb-worker.git"
+  },
+  "bugs": {
+    "url": "https://github.com/akulnurislam/eb-worker/issues"
+  },
+  "homepage": "https://github.com/akulnurislam/eb-worker#readme",
+  "keywords": [
+    "elastic",
+    "beanstalk",
+    "worker",
+    "generator"
+  ],
+  "files": [
+    "bin/",
+    "template/"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^2.19.0"
+  }
+}
