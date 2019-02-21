@@ -1,6 +1,6 @@
 {
   "name": "eb-worker",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "project skeleton for Elastic Beanstalk Worker",
   "main": "bin/eb-worker-cli.js",
   "bin": {

@@ -12,7 +12,7 @@ app.use(middleware.bodyParser());
 
 app.post('/', async (req, res) => {
   try {
-    await worker.run(req.body);
+    await worker.main(req.body);
     res.status(200).send('OK');
   } catch (err) {
     console.error(err);

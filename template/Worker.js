@@ -1,5 +1,5 @@
 class Worker {
-  async run(body) {
+  async main(body) {
     /**
      * logic here
      * 
