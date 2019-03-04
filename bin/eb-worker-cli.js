@@ -64,7 +64,7 @@ function copyDirectory(source, destination) {
 function createPackageJson(name) {
   const package = {
     name,
-    version: '1.0.0',
+    version: '0.0.1',
     description: 'created with love by eb-worker generator',
     main: 'index.js',
     scripts: {
